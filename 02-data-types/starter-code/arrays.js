@@ -12,7 +12,10 @@
  */
 
 // Your code here
-
+let q1 = ['image1.png', 'image2.png', 'image3.png'];
+// OR: 
+// let q1 = new Array('image1.png', 'image2.png', 'image3.png'); 
+console.log("Question 1: " + q1);
 /**
  * Question 2
  * Using the array from Question 1, store the first element of the array
@@ -20,6 +23,8 @@
  */
 
 // Your code here
+let q2 = q1[0];
+console.log("Question 2: " + q2);
 
 /**
  * Question 3
@@ -28,6 +33,8 @@
  */
 
 // Your code here
+let q3 = q1.length;
+console.log("Question 3: " + q3);
 
 /**
  * Question 4
@@ -35,8 +42,9 @@
  * in variable q4. Hint: How can we get the number of elements in the array?
  */
 
-
 // Your code here
+let q4 = q1[q1.length-1];
+console.log("Question 4: " + q4);
 
 
 // ____________________________________________________________________________
@@ -55,7 +63,11 @@
  */
 
 // Your code here
-
+let q5 = [1,2,3,4];
+for(let i=0; i<q5.length;i++){
+    q5[i]++;
+}
+console.log("Question 5: " + q5);
 
 /**
  * Question 6
@@ -63,5 +75,13 @@
  * (average = sum of all numbers/number of numbers). Store the average in q6.
  */
 
+ // Your code here
+ const totalNumbers = q5.length;
+ let sum=0;
+for(let i=0; i<q5.length;i++){
+    sum = sum + q5[i];
+}
+let q6 = sum / totalNumbers;
+console.log("Question 6: " + q6);
 
-// Your code here
+
