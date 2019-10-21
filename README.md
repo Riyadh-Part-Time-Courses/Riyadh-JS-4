@@ -18,7 +18,7 @@ Welcome to JSD 1. This repository contains information and materials specific to
   - Time (Online/Offline)
   - 
 - **Yahya** (Facilitator)
-  - [Email](mailto:Ya7yamo1@gmail.com@gmail.com)
+  - [Ya7yamo1@@gmail.com](mailto:Ya7yamo1@gmail.com)
   - Time (Online/Offline)
   - 
   
