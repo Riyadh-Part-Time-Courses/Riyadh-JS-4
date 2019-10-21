@@ -9,7 +9,10 @@
 
 // ##### Step 1:
 // Construct a for loop that iterates through, and `console.log()`'s out, numbers 1 - 100.
-
+for(let i = 1;i<=100;i++)
+{
+    
+}
 
 
 // ##### Step 2:
