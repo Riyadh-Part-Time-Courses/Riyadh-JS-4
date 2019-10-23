@@ -8,7 +8,7 @@ var jsonString = '{ "title": "Uploads from everyone", "link": "https://www.flick
 called `flickerObj`
 */
 
-
+let flickerObj = JSON.parse(jsonString);
 
 
 /*
@@ -19,14 +19,24 @@ with the date the photo was taken. The first console.log should return the follo
 
 */
 
+for(let key in flickerObj.items){
+console.log(flickerObj.items[key].title+" "+flickerObj.items[key].date_taken); 
+}
 
 /*
 3. Create a new array called 'links'. Iterate through the items array in flickerObj and store the the links to each item in the 'links' array.
 */
-
+let links = [];
+for(let key in flickerObj.items){
+links.push(flickerObj.items[key].link)
+}
 
 
 /*
 4. Convert the 'links' array into a JSON string. Do a console.log of that JSON string, copy the results from the terminal and paste them into the input box at http://jsonlint.com/
 Did it create a valid JSON string?
 */ 
+
+console.log(JSON.stringify(links));
+
+
