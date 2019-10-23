@@ -11,8 +11,13 @@
  * Use "image1.png", "image2.png", and "image3.png" as the array values.
  */
 
+
 let q1 = new Array ('image1.png','image2.png','image3.png');
 console.log('Question1 '+q1);
+=======
+// Your code here
+var q1 = ["image1.png", "image2.png", "image3.png"];
+
 
 /**
  * Question 2
@@ -20,9 +25,13 @@ console.log('Question1 '+q1);
  * in variable q2.
  */
 
+
 let q2 = q1[0];
 console.log('Question2 '+q2);
 
+=======
+// Your code here
+var q2 = q1[0];
 
 /**
  * Question 3
@@ -34,6 +43,9 @@ let q3 = q1.length;
 console.log('Question3 '+q3);
 
 
+=======
+// Your code here
+var q3 = q1.length;
 /**
  * Question 4
  * Using the array from Question 1, store the last element of the array
@@ -44,6 +56,9 @@ let q4 = q1[2];
 console.log('Question4 '+q4);
 
 
+=======
+// Your code here
+var q4 = q1[q1.length];
 
 // ____________________________________________________________________________
 
@@ -67,6 +82,12 @@ for (let i=0; i<firstArray.length;i++)
     secondArray[i] = firstArray[i] + 1;
 }
 console.log('Question5 '+secondArray);
+=======
+// Your code here
+var q5 = [1,2,3,4];
+for(var i =0; i< q5.length; ++i){
+ q5[i] = q5[i] +1; 
+}
 
 /**
  * Question 6
@@ -81,4 +102,12 @@ sum += secondArray[i] ;
 console.log(sum);
 let q6 = sum/secondArray.length;
 console.log('Question6 '+q6);
+
+=======
+
+// Your code here
+
+var q6 = 0;
+q5.forEach(function(val){q6 += val});
+q6 = q6/q5.length;
 
