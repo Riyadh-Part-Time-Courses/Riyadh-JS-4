@@ -12,6 +12,7 @@
  */
 
 // Your code here
+var q1 = ["image1.png", "image2.png", "image3.png"];
 
 /**
  * Question 2
@@ -20,6 +21,7 @@
  */
 
 // Your code here
+var q2 = q1[0];
 
 /**
  * Question 3
@@ -28,7 +30,7 @@
  */
 
 // Your code here
-
+var q3 = q1.length;
 /**
  * Question 4
  * Using the array from Question 1, store the last element of the array
@@ -37,7 +39,7 @@
 
 
 // Your code here
-
+var q4 = q1[q1.length];
 
 // ____________________________________________________________________________
 
@@ -55,7 +57,10 @@
  */
 
 // Your code here
-
+var q5 = [1,2,3,4];
+for(var i =0; i< q5.length; ++i){
+ q5[i] = q5[i] +1; 
+}
 
 /**
  * Question 6
@@ -65,3 +70,8 @@
 
 
 // Your code here
+
+var q6 = 0;
+q5.forEach(function(val){q6 += val});
+q6 = q6/q5.length;
+

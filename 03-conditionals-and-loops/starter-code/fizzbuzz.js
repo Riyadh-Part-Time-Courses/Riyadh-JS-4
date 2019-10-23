@@ -9,22 +9,21 @@
 
 // ##### Step 1:
 // Construct a for loop that iterates through, and `console.log()`'s out, numbers 1 - 100.
-for(let i = 1;i<=100;i++)
-{
-    
-}
+
+
+
 
 
 // ##### Step 2:
 // Add an `if/else` statement that logs the string `"fizz"` if the value being iterated over is divisible by `3`; otherwise, log out the value.
-
+ 
+  
 
 
 // ##### Step 3:
 // Add an `else if` clause that logs the string `"buzz"` if the value being iterated over is divisible by `5`.
 
 
-
 // ##### Step 4:
 // Add an additional `else if` clause that logs the string `"fizzbuzz"` if the value being iterated over is divisible by both `3` and `5`.
-
+ 
