@@ -11,18 +11,45 @@ for retrieving properties (dot notation and brackets).
 */
 
 
-let Monkey = {
+let Monkey1 = {
 name: "",
-species = "",
-foodsEaten ="",
-eatSomething = function(food){ this.foodsEaten = food},
-introduce = function(){return this.name+", "+this.species+", "+foodsEaten};
-
+species: "",
+foodsEaten:"",
+eatSomething:function(food){ this.foodsEaten = food},
+introduce: function(){ return this.name+", "+this.species+", "+this.foodsEaten}
 }
-let m1 = Monkey();
-let m2 = Monkey();
-let m3 = Monkey();
 
-m1.name ="Monkey 1";
-m2.name ="Monkey 2";
-m3.name ="Monkey 3";
+let Monkey2 = {
+    name: "",
+    species: "",
+    foodsEaten:"",
+    eatSomething:function(food){ this.foodsEaten = food},
+    introduce: function(){ return this.name+", "+this.species+", "+this.foodsEaten}
+    }
+let Monkey3 = {
+        name: "",
+        species: "",
+        foodsEaten:"",
+        eatSomething:function(food){ this.foodsEaten = food},
+        introduce: function(){ return this.name+", "+this.species+", "+this.foodsEaten}
+}
+
+
+Monkey1.name ="Monkey 1";
+Monkey2.name ="Monkey 2";
+Monkey3.name ="Monkey 3";
+
+Monkey1.species ="Species 1";
+Monkey2.species ="Species 2";
+Monkey3.species ="Species 3";
+
+Monkey1.eatSomething("Bnana");
+Monkey2.eatSomething("Apple");
+Monkey3.eatSomething("Bread");
+
+console.log("Name1: "+ Monkey1.name);
+console.log("Name1: "+ Monkey1["name"]);
+
+console.log("Monkey1: "+ Monkey1.introduce());
+console.log("Monkey2: "+ Monkey2.introduce());
+console.log("Monkey3: "+ Monkey3.introduce());
