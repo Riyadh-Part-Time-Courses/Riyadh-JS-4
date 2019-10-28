@@ -27,12 +27,39 @@
   </div>
 
   <h2 id="favorites">
+<ul>
+</ul>
 
   </h2>
 
 
   <script src='http://code.jquery.com/jquery-latest.min.js'></script>
   <script src="js/app.js"></script>
+  <script src="js/madlib-console.js"></script>
+  
+  <script>
+    let saying = '';
+    $('#create').click(function(){
+       random1 = Math.floor((Math.random() * startupX.length));
+       random2 = Math.floor((Math.random() * startupY.length));
+
+      saying = 'A startup that is ' + startupX[random1] + ', but for ' + startupY[random2];
+      $('#xForY').text(saying);
+    });
+var save_arr = [];
+   $('#save').click(function(){
+	if(saying != '')save_arr.push(saying);
+	});
+$('#print').click(function(){
+$('#favorites ul').empty();
+save_arr.forEach(function(value){
+$('#favorites ul').append('<li>'+value+'</li>');
+
+
+});
+
+});
+  </script>
 
 </body>
 
