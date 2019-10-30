@@ -10,24 +10,25 @@ as bonus questions to get extra credit.
 Q1. Write a function to check if an array contains a particular number.
 
 Examples
-
+```
 check([1, 2, 3, 4, 5], 3) ➞ true
 check([1, 1, 2, 1, 1], 3) ➞ false
 check([5, 5, 5, 6], 5) ➞ true
 check([], 5) ➞ false
+```
 
 
 Q2. Write a function that takes two integers (hours, minutes) and converts them to seconds.
+
 Examples
+```
 convertToSeconds(1, 3) ➞ 3780
 convertToSeconds(2, 0) ➞ 7200
 convertToSeconds(0, 0) ➞ 0
+```
 
-
-
-Q3
-
-Use the following data to solve the problems below.
+Q3 Use the following data to solve the problems below.
+```
 var  aquarium = {
     filledWithWater: true,
     capacityInGallons: 12,
@@ -50,6 +51,7 @@ var  aquarium = {
             }
         ]
 }
+```
 access the value of the capacityInGallons key
 add 2 rocks to the numberOfRocks in the aquarium
 access the clown fish and print the object.
