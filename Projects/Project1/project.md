@@ -151,7 +151,7 @@ let logByMass = function() {
 
 **Bonus Questions: 
 
-**1.** Write a function that takes in a parameter called `num`, and returns a random number between 0 and `num`. Look up documentation for `Math.random()`.
+**1.** Write a function that takes in a parameter called `num`, and returns a random number between 0 and `num`. Look up documentation for [Math.Random()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random).
 
 Examples
 
