@@ -11,8 +11,13 @@
  * Use "image1.png", "image2.png", and "image3.png" as the array values.
  */
 
+
+let q1 = new Array ('image1.png','image2.png','image3.png');
+console.log('Question1 '+q1);
+=======
 // Your code here
 var q1 = ["image1.png", "image2.png", "image3.png"];
+
 
 /**
  * Question 2
@@ -20,6 +25,11 @@ var q1 = ["image1.png", "image2.png", "image3.png"];
  * in variable q2.
  */
 
+
+let q2 = q1[0];
+console.log('Question2 '+q2);
+
+=======
 // Your code here
 var q2 = q1[0];
 
@@ -29,6 +39,11 @@ var q2 = q1[0];
  * and store it in variable q3
  */
 
+let q3 = q1.length;
+console.log('Question3 '+q3);
+
+
+=======
 // Your code here
 var q3 = q1.length;
 /**
@@ -37,7 +52,11 @@ var q3 = q1.length;
  * in variable q4. Hint: How can we get the number of elements in the array?
  */
 
+let q4 = q1[2];
+console.log('Question4 '+q4);
 
+
+=======
 // Your code here
 var q4 = q1[q1.length];
 
@@ -56,6 +75,14 @@ var q4 = q1[q1.length];
  * an array of numbers with values 2, 3, 4, and 5.
  */
 
+let firstArray = [1,2,3,4];
+let secondArray = [];
+for (let i=0; i<firstArray.length;i++)
+{
+    secondArray[i] = firstArray[i] + 1;
+}
+console.log('Question5 '+secondArray);
+=======
 // Your code here
 var q5 = [1,2,3,4];
 for(var i =0; i< q5.length; ++i){
@@ -67,7 +94,16 @@ for(var i =0; i< q5.length; ++i){
  * Using the array from Question 5, find the average of the numbers in the array
  * (average = sum of all numbers/number of numbers). Store the average in q6.
  */
+let sum = 0;
+ for (let i=0; i<secondArray.length; i++)
+{
+sum += secondArray[i] ;
+}
+console.log(sum);
+let q6 = sum/secondArray.length;
+console.log('Question6 '+q6);
 
+=======
 
 // Your code here
 
