@@ -7,7 +7,7 @@ as bonus questions to get extra credit.
 
 
 
-Q1. Write a function to check if an array contains a particular number.
+**Q1.** Write a function to check if an array contains a particular number.
 
 Examples
 ```
@@ -18,7 +18,7 @@ check([], 5) ➞ false
 ```
 
 
-Q2. Write a function that takes two integers (hours, minutes) and converts them to seconds.
+**Q2.** Write a function that takes two integers (hours, minutes) and converts them to seconds.
 
 Examples
 ```
@@ -27,7 +27,7 @@ convertToSeconds(2, 0) ➞ 7200
 convertToSeconds(0, 0) ➞ 0
 ```
 
-Q3 Use the following data to solve the problems below.
+**Q3.** Use the following data to solve the problems below.
 ```
 var  aquarium = {
     filledWithWater: true,
@@ -65,7 +65,7 @@ var  aquarium = {
 6. you bought a new fish! Make a new object for a '5 inch' long, blue starfish and add it to the fish array.
 
 
-Q4 The following JSON object has been provided to you in `script.js`:
+**Q4.** The following JSON object has been provided to you in `script.js`:
 
 ```
 let data =  {
@@ -149,9 +149,9 @@ let logByMass = function() {
 };
 ```
 
-Bonus Questions: 
+**Bonus Questions: 
 
-1. Write a function that takes in a parameter called `num`, and returns a random number between 0 and `num`. Look up documentation for `Math.random()`.
+**1.** Write a function that takes in a parameter called `num`, and returns a random number between 0 and `num`. Look up documentation for `Math.random()`.
 
 Examples
 
@@ -160,7 +160,7 @@ getRandomNum(6) ➞  returns a random number between 0 and 6
 getRandomNumber(10) ➞ returns a random number between 0 and 10
 ```
 
-2. A leap year has one day added to February for being synchronized with the seasonal year. A leap year appears with a regular frequency, which is determined by the rule below:
+**2.** A leap year has one day added to February for being synchronized with the seasonal year. A leap year appears with a regular frequency, which is determined by the rule below:
 
 The year is exactly divisible by 400, or exactly divisible by 4 and not exactly divisible by 100.
 Given a year you must implement a function that returns true if it's a leap year, or false if it's not.
