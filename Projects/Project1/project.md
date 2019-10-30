@@ -65,10 +65,9 @@ var  aquarium = {
 6. you bought a new fish! Make a new object for a '5 inch' long, blue starfish and add it to the fish array.
 
 
-Q4
+Q4 The following JSON object has been provided to you in `script.js`:
 
-
-The following JSON object has been provided to you in script.js:
+```
 let data =  {
   	"people": [
         {
@@ -119,36 +118,60 @@ let data =  {
   	  }
     ] // ends people array
   } // ends data json object
-This JSON object contains one key value pair, which holds an array of objects. This array of objects is the data we are after.
-What to do?
-Create a main.js file and write the following functions
-Write a function that console.logs each character object in the data.
+```
+
+1. This JSON object contains one key value pair, which holds an array of objects. This array of objects is the data we are after.
+
+2. What to do?
+
+3.Create a `main.js` file and write the following functions
+
+4. Write a function that `console.logs` each character object in the data.
+```
 let logData = function() {
 }
-Write a function that console.logs each character's name
+```
+
+5. Write a function that `console.logs` each character's `name`
+```
 let logNames = function() {
 };
-Write a function that console.logs each character's name and eye color
+```
+
+6. Write a function that `console.logs` each character's `name` and `eye color`
+```
 let logNameEyes = function() {
 };
-Write a function that console.logs each character's name whose mass is greater than 75
+```
+7. Write a function that `console.logs` each character's name whose `mass` is greater than 75
+```
 let logByMass = function() {
 };
+```
 
+Bonus Questions: 
 
-Bonus Questions: Write a function that takes in a parameter called “num”, and returns a random number between 0 and num.  Look up documentation for Math.random().
+1. Write a function that takes in a parameter called `num`, and returns a random number between 0 and `num`. Look up documentation for `Math.random()`.
+
 Examples
 
- getRandomNum(6) ➞  returns a random number between 0 and 6
- getRandomNumber(10) ➞ returns a random number between 0 and 10
+```
+getRandomNum(6) ➞  returns a random number between 0 and 6
+getRandomNumber(10) ➞ returns a random number between 0 and 10
+```
+
 2. A leap year has one day added to February for being synchronized with the seasonal year. A leap year appears with a regular frequency, which is determined by the rule below:
+
 The year is exactly divisible by 400, or exactly divisible by 4 and not exactly divisible by 100.
 Given a year you must implement a function that returns true if it's a leap year, or false if it's not.
+```
 Examples
 isLeap(2020) ➞ true // Exactly divided by 4 and not by 100.
 isLeap(1800) ➞ false // Exactly divided by 4, but is also exactly divided by 100.
 isLeap(2000) ➞ true // Exactly divided by 400.
 isLeap(2019) ➞ false // It can't be exactly divided by 400 or by 4.
+```
 
 Notes
+
 Exactly divided can be interpreted as the remainder of the division is equal to 0.
