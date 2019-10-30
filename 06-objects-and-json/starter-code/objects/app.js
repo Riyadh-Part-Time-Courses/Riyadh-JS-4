@@ -19,7 +19,24 @@
   // - park
 
 // Answer Starts Here
-
+var Car = function(){
+ this.make = '';
+  this.model = '';
+  this.year = '';
+  this.isDriving = false;
+  this.isPark = false;
+    this.isBrake = false;
+  
+  function drive(){
+    this.isDriving = true;
+  }
+  function brake(){
+    this.isBrake = true;
+  }
+  function park(){
+    this.isPark = true;
+  }
+}
 // Answer Ends Here
 
 // 2. Create an Object literal that lines up with the following description. Store it in the variable 'pet_owner', below. Be sure to give it reasonable values for each of its properties.
@@ -33,7 +50,10 @@
 var pet_owner;
 
 // Answer Starts Here
-
+pet_owner = {
+  owner:{ name :'', address:''},
+  description:''
+}
 // Answer Ends Here
 
 // 3. Create an Object literal that lines up with the following description. Store it in the variable `some_pet`, below.
@@ -51,7 +71,15 @@ var pet_owner;
 var some_pet;
 
 // Answer Starts Here
-
+some_pet = {
+ pet={
+ name:'' ,
+  species:'',
+  bread:'',
+  noise:'',
+  makeNoise:function(noise){ this.noise = noise}
+}
+}
 // Answer Ends Here
 
 // 4. Create a constructor function for Pet objects, as described above. The constructor function should be responseible for setting
