@@ -52,12 +52,17 @@ var  aquarium = {
         ]
 }
 ```
-access the value of the capacityInGallons key
-add 2 rocks to the numberOfRocks in the aquarium
-access the clown fish and print the object.
-access the size of the puffer fish.
-your goldfish grew! Access the 'size' key of goldfish and reassign it to '4 inches'.
-you bought a new fish! Make a new object for a 5 inch long, blue starfish and add it to the fish array.
+1. access the value of the `capacityInGallons` key
+
+2. add 2 rocks to the `numberOfRocks` in the aquarium
+
+3. access the `clown fish` and `print` the object.
+
+4. access the `size` of the `puffer` fish.
+
+5. your `goldfish` grew! Access the `size` key of goldfish and reassign it to '4 inches'.
+
+6. you bought a new fish! Make a new object for a '5 inch' long, blue starfish and add it to the fish array.
 
 
 Q4
