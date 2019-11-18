@@ -1,0 +1,47 @@
+body {
+  margin: 15px;
+}
+
+h2 {
+  padding-top: 40px;
+}
+
+div {
+  padding-bottom: 30px;
+}
+
+.container {
+  border: 1px solid #444;
+  padding: 50px;
+}
+
+.box-example-1, .box-example-2,
+.box-example-3, .box-example-4,
+.box-example-5, .box-example-6 {
+  border: 1px solid #444;
+  color: white;
+  display: inline-block;
+  font-size: 48px;
+  height: 100px;
+  width: 100px;
+}
+
+.box-example-3, .box-example-4 {
+  background-color: white;
+  color: black;
+}
+
+.container-crazy .box-example-6 {
+  color: black;
+  font-size: 20px;
+}
+
+
+#js01ID {
+  cursor: pointer;
+}
+
+// Applied only by JS/jQuery
+.red {
+  color: red;
+}
