@@ -1,0 +1,12 @@
+#completed-list-div {
+  display: none;
+}
+
+.complete-task {
+  color: blue;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
