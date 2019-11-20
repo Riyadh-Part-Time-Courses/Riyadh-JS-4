@@ -1,0 +1,29 @@
+body {
+  background-color: #f2f2f2;
+  font-family: helvetica, sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+h1 span {
+  font-weight: normal;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  height: 1000px;
+  margin-top: 1em;
+}
+
+.image {
+  flex: 1 1 200px;
+  margin: 3px;
+  background-size: cover;
+}
+
+.btn-default {
+  margin-top: 4em;
+}
