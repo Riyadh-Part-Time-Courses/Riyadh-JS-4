@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h2>FireBase Firestore Restaurant Finder</h2>
+    </header>
+    
+    <div id="alert">
+    </div>
+    <div>
+        <div class="res-container">
+
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="formcontainer">
+            <div class="row">
+                <div class="w-50">
+                        <input type="text" name="name" placeholder="name of restuarant">
+                </div>
+                <div class="w-50">
+                        <input type="text" name="location" placeholder="location">
+            
+                </div>
+            </div>
+                
+                
+                <button class="submit">Submit</button>
+        </div>
+    </div>
+
+    
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--./ import firebase and firestore -->
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-firestore.js"></script>
+    <script>
+   // Initialize Firebase Config
+    var config = {
+        apiKey: "",
+        authDomain: "",
+        databaseURL: "",
+        projectId: "",
+        storageBucket: "",
+        messagingSenderId: ""
+    };
+    firebase.initializeApp(config);
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
